@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+div{
+    cursor: pointer;
+    padding: 80px;
+}
+
+.one{
+    background-color: thistle;
+}
+
+.two{
+    background-color: mistyrose;
+}
+
+.three{
+    background-color: coral;
+}
+
+button{
+    cursor: pointer;
+    background-color: mistyrose;
+    border: none;
+    padding: 15px;
+}
